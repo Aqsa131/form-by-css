@@ -1,0 +1,63 @@
+@import url(login.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(248, 255, 255, 0.589);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(174, 170, 170);
+    display: flex;
+    flex-direction: row;   
+}
+.main{
+    width: 30%;
+    height: 550px;
+    background-color: rgb(177, 19, 45);
+    margin:  20px 0px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(174, 170, 170);
+    color: white;
+}
+.inner_div{
+    margin:  20px 0px 0px 50px;
+}
+a{
+    text-decoration: none;
+}
+.input{
+    border: 1px solid rgba(230, 224, 224, 0.596);
+    width: 250px;
+    border-radius: 5px;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.text_field{
+    border: 2px solid rgba(230, 224, 224, 0.596);
+    width: 600px;
+    padding:10px ;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 5px;
+    width: 180px;
+    padding: 8px;
+    background-color: rgb(177, 19, 45) ;
+    color: white;
+    border-radius: 5px;
+    border-color:rgb(177, 19, 45) ;
+}
+.text{
+    margin: 40px;
+}
+.journey{
+    margin-left: 50px;
+}
+a.acc{
+    color: white;
+}
