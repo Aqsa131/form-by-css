@@ -37,6 +37,9 @@ a{
     margin-top: 10px;
     margin-bottom: 10px;  
 }
+.field{
+    margin-left: 5px;
+}
 .text_field{
     border: 2px solid rgba(230, 224, 224, 0.596);
     width: 600px;
